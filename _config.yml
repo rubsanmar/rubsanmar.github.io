@@ -13,7 +13,10 @@
 title: rubsanmar.es
 
 # Your name to show in the footer
-author: Ruben 
+author: Ruben
+
+# Favicon
+site_favicon: favicon.png
 
 ###############################################
 # --- List of links in the navigation bar --- #
