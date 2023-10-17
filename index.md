@@ -1,7 +1,8 @@
 ---
 layout: page
 title: RubSanMar
-subtitle: El website personal de un curioso
+subtitle: El website personal de un curioso inquieto
 ---
-
-![Curiosidad](/assets/img/curioso.png#center)
+<p align="center">
+  <img src="/assets/img/curioso.png">
+</p>
