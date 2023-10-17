@@ -25,12 +25,12 @@ site_favicon: favicon.png
 navbar-links:
   Blog: "blog"
   ASIR: 
-    1º:
-      1:""
-      2:""
-    2º:
-      1:""
-      2:""
+   - 1º:
+    - 1:""
+    - 2:""
+   - 2º:
+    - 1:""
+    - 2:""
   About Me: "aboutme"
 
 
