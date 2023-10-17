@@ -1,5 +1,5 @@
 ---
 layout: page
-title: .:RubSanMar:.
+title: .: RubSanMar :.
 subtitle: El website personal de un curioso
 ---
