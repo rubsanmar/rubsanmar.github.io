@@ -20,11 +20,11 @@ author: Ruben Sanchez
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
+  Quien soy: "aboutme"
+  Blog:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+ # Author's home: "https://deanattali.com"
 
 ################
 # --- Logo --- #
