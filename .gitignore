@@ -6,5 +6,7 @@ _site
 *.sublime-workspace
 .DS_Store
 Gemfile.lock
+Gemfile
+docker-compose.yml
 docs/
 AGENTS.md

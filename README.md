@@ -23,20 +23,32 @@ El layout `post` se aplica automáticamente. Las categorías y etiquetas aliment
 
 ## Previsualización local
 
-Con Ruby instalado:
+Los archivos de desarrollo local (`docker-compose.yml`, `Gemfile` y
+`Gemfile.lock`) no se versionan en este repositorio; solo se publican las
+fuentes del sitio.
 
-```bash
-bundle install
-bundle exec jekyll serve --watch
+Con Docker, crea un `docker-compose.yml` en la raíz con:
+
+```yaml
+services:
+  jekyll:
+    image: jekyll/jekyll:latest
+    command: jekyll serve --host 0.0.0.0 --watch --force_polling
+    ports:
+      - 4000:4000
+    user: "1000:1000"
+    environment:
+      - JEKYLL_NO_BUNDLER_REQUIRE=true
+    volumes:
+      - .:/srv/jekyll:z
 ```
 
-Con Docker, sin instalar Ruby:
+y ejecuta `docker compose up`. El sitio queda en <http://localhost:4000/>.
+El valor de `user` debe coincidir con tu UID/GID (`id -u` e `id -g`).
 
-```bash
-docker compose up
-```
-
-En ambos casos el sitio se sirve en <http://localhost:4000/>.
+Con Ruby instalado, crea un `Gemfile` con
+`gem 'github-pages', group: :jekyll_plugins`, ejecuta `bundle install` y
+después `bundle exec jekyll serve --watch`.
 
 ## Publicación
 
