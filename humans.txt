@@ -5,7 +5,7 @@ exclude: 'yes'
 ---
 
 /* EQUIPO */
-Nombre: Ruben Sanchez Martin
+Nombre: Rubén Sánchez Martín
 GitHub: rubsanmar
 Web: https://rubensm.es
 Ubicación: Madrid, España

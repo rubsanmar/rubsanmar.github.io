@@ -1,5 +1,5 @@
 # Identidad del sitio
-title: 'Ruben Sánchez'
+title: 'Rubén Sánchez Martín'
 description: 'Sistemas, redes y ciberseguridad'
 url: 'https://rubensm.es'
 baseurl: ''
@@ -8,7 +8,7 @@ timezone: 'Europe/Madrid'
 
 # Autor
 author:
-  name: 'Ruben Sanchez Martin'
+  name: 'Rubén Sánchez Martín'
   email: 'ruben@rubensm.es'
   github_username: 'rubsanmar'
   linkedin_username: 'ruben-sanchez-martin-a03b47264'

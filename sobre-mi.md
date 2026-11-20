@@ -4,22 +4,25 @@ title: Sobre mí
 permalink: /sobre-mi/
 ---
 
-Soy Ruben, técnico en Sistemas y Ciberseguridad. Me interesa el software libre,
-la automatización y todo lo que se aprende rompiendo cosas en un laboratorio.
-Aquí escribo sobre sistemas, redes y seguridad, y de vez en cuando sobre los
-proyectos en los que voy metiendo mano.
+Soy Rubén, curioso como un gato. Me interesa el software libre, la automatización y todo lo que se aprende rompiendo cosas en un laboratorio. Aquí escribo sobre sistemas, redes y seguridad, y de vez en cuando sobre los proyectos en los que voy metiendo mano.
 
-Curioso como un gato, cabezón como un servidor sin DNS y meticuloso como un
-hacker con insomnio.
+Técnico con más de 14 años de experiencia operativa en entornos de alta criticidad y conocimiento profundo de las aplicaciones de gestión del tráfico ferroviario desde la perspectiva del usuario final.
 
-## Qué encontrarás aquí
+Formación técnica en administración de sistemas, redes y ciberseguridad. Perfil autodidacta con motivación para aprender tecnologías nuevas.
 
-- Artículos sobre sistemas, redes y ciberseguridad.
-- Proyectos personales y pruebas de laboratorio.
-- Recursos y apuntes que voy recopilando mientras aprendo.
+## Educación
+
+- Técnico en Equipos e Instalaciones Electrotécnicas.
+- Técnico Superior en Administración de Sistemas Informáticos en Red.
+- Máster Profesional en Ciberseguridad en Entornos de las Tecnologías de la Información.
+
+## En proceso
+
+- Certificación eJPT.
+- Certificación CompTIA Security+.
 
 ## Contacto
 
 - GitHub: [@{{ site.author.github_username }}](https://github.com/{{ site.author.github_username }})
-- LinkedIn: [Ruben Sanchez Martin](https://www.linkedin.com/in/{{ site.author.linkedin_username }}/)
+- LinkedIn: [Rubén Sánchez Martín](https://www.linkedin.com/in/{{ site.author.linkedin_username }}/)
 - Correo: [{{ site.author.email }}](mailto:{{ site.author.email }})
