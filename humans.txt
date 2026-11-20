@@ -1,0 +1,16 @@
+---
+layout: null
+sitemap:
+exclude: 'yes'
+---
+
+/* EQUIPO */
+Nombre: Ruben Sanchez Martin
+GitHub: rubsanmar
+Web: https://rubensm.es
+Ubicación: Madrid, España
+
+/* SITIO */
+Última actualización: {{ site.time | date: "%Y/%m/%d" }}
+Estándares: HTML5, CSS3
+Componentes: Jekyll

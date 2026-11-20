@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<h2>Categorías</h2>
+<div class="categories">
+{% for catitem in site.categories %}
+  <a href="#{{ catitem[0] | slugify }}">{{ catitem[0] }}</a>
+{% endfor %}
+</div>
+
+{% for catitem in site.categories %}
+  <div id="{{ catitem[0] | slugify }}">
+    <h3>{{ catitem[0] }}</h3>
+    <ul>
+      {% for post in catitem[1] %}
+        <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endfor %}

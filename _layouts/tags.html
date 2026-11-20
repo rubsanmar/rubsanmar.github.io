@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<h2>Etiquetas</h2>
+<div class="tags">
+{% for tagitem in site.tags %}
+  <a href="#{{ tagitem[0] | slugify }}">{{ tagitem[0] }}</a>
+{% endfor %}
+</div>
+
+{% for tagitem in site.tags %}
+  <div id="{{ tagitem[0] | slugify }}">
+    <h3>{{ tagitem[0] }}</h3>
+    <ul>
+      {% for post in tagitem[1] %}
+        <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endfor %}

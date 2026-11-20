@@ -1,0 +1,52 @@
+# Identidad del sitio
+title: 'Ruben Sánchez'
+description: 'Sistemas, redes y ciberseguridad'
+url: 'https://rubensm.es'
+baseurl: ''
+lang: 'es'
+timezone: 'Europe/Madrid'
+
+# Autor
+author:
+  name: 'Ruben Sanchez Martin'
+  email: 'ruben@rubensm.es'
+  github_username: 'rubsanmar'
+  linkedin_username: 'ruben-sanchez-martin-a03b47264'
+  # twitter_username:
+  # facebook_username:
+  avatar:       # '/images/profile.jpg' cuando exista la foto
+
+# Comportamiento
+disable_landing_page: false
+paginate: 10
+permalink: '/:year/:title/'
+
+# Construcción
+markdown: kramdown
+highlighter: rouge
+plugins: ['jekyll-paginate']
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+defaults:
+  - scope:
+      path: ''
+      type: 'posts'
+    values:
+      layout: 'post'
+
+exclude:
+  - README.md
+  - AGENTS.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - docker-compose.yml
+  - docs
+  - screenshot.png
