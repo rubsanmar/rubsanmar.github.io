@@ -57,3 +57,17 @@ pre.highlight code,
   border: 3px solid #fff;
   border-radius:100%;
 }
+
+.panel-cover__tagline {
+  margin: 10px 30px 0;
+  font-size: .95em;
+  font-style: italic;
+  opacity: .85;
+}
+
+@media all and (max-width: 1100px) {
+  .panel-cover__tagline {
+    margin: 8px 10px 0;
+    font-size: .85em;
+  }
+}

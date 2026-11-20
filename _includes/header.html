@@ -17,6 +17,9 @@
         </a>
         <hr class="panel-cover__divider">
         <p class="panel-cover__description">{{ site.description }}</p>
+        {% if site.tagline %}
+        <p class="panel-cover__tagline">{{ site.tagline }}</p>
+        {% endif %}
         <hr class="panel-cover__divider panel-cover__divider--secondary">
 
         <div class="navigation-wrapper">
