@@ -1,7 +1,7 @@
 # Identidad del sitio
 title: 'Rubén Sánchez Martín'
-description: 'Sistemas, redes y ciberseguridad'
-tagline: 'Pruebo, rompo, arreglo, aprendo.'
+description: 'Sistemas, redes y ciberseguridad'  # SEO, feed y redes sociales
+tagline: 'Pruebo, rompo, arreglo, aprendo.'      # visible en la portada
 url: 'https://rubensm.es'
 baseurl: ''
 lang: 'es'
