@@ -4,17 +4,17 @@ title: Sobre mí
 permalink: /sobre-mi/
 ---
 
-Soy Rubén, curioso como un gato. Me interesa el software libre, la automatización y todo lo que se aprende rompiendo cosas en un laboratorio. Aquí escribo sobre sistemas, redes y seguridad, y de vez en cuando sobre los proyectos en los que voy metiendo mano.
+Soy Rubén Sánchez Martín, técnico de sistemas y ciberseguridad. Llevo más de 14 años trabajando en Metro de Madrid, en entornos de alta criticidad. He usado las aplicaciones de gestión del tráfico ferroviario desde el Puesto de Mando, así que conozco cómo se comportan en la operación real y qué necesita quien está delante de ellas.
 
-Técnico con más de 14 años de experiencia operativa en entornos de alta criticidad y conocimiento profundo de las aplicaciones de gestión del tráfico ferroviario desde la perspectiva del usuario final.
+Curioso como un gato, me interesa el software libre, la automatización y todo lo que se aprende rompiendo cosas en un laboratorio. Aquí escribo sobre sistemas, redes y seguridad, y de vez en cuando sobre los proyectos en los que voy metiendo mano.
 
-Formación técnica en administración de sistemas, redes y ciberseguridad. Perfil autodidacta con motivación para aprender tecnologías nuevas.
+Formación técnica en administración de sistemas, redes y ciberseguridad. Aprendo sobre todo con las manos, montando y documentando proyectos como el homelab que describo más abajo.
 
 ## Formación
 
-- Técnico en Equipos e Instalaciones Electrotécnicas.
-- Técnico Superior en Administración de Sistemas Informáticos en Red.
-- Máster Profesional en Ciberseguridad en Entornos de las Tecnologías de la Información.
+- **Técnico en Equipos e Instalaciones Electrotécnicas** — IES Enrique Tierno Galván, 2008.
+- **Técnico Superior en Administración de Sistemas Informáticos en Red** — Instituto FOC, 2022.
+- **Máster Profesional en Ciberseguridad en Entornos de las Tecnologías de la Información** — CIDEAD, 2024.
 
 ## En proceso
 
