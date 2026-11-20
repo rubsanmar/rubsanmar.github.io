@@ -10,7 +10,7 @@ Técnico con más de 14 años de experiencia operativa en entornos de alta criti
 
 Formación técnica en administración de sistemas, redes y ciberseguridad. Perfil autodidacta con motivación para aprender tecnologías nuevas.
 
-## Educación
+## Formación
 
 - Técnico en Equipos e Instalaciones Electrotécnicas.
 - Técnico Superior en Administración de Sistemas Informáticos en Red.
@@ -20,6 +20,17 @@ Formación técnica en administración de sistemas, redes y ciberseguridad. Perf
 
 - Certificación eJPT.
 - Certificación CompTIA Security+.
+
+## Proyectos
+
+### Homelab de infraestructura y servicios
+
+Laboratorio personal sobre NAS y Ubuntu Server para practicar despliegue, segmentación de red y hardening.
+
+- Orquestación de servicios con Docker Compose: Nginx Proxy Manager, Authelia (SSO y 2FA), PostgreSQL, MariaDB, Redis, Bitwarden, Nextcloud, Immich y n8n.
+- Segmentación de redes por capas (proxy, base de datos y aplicación) para reducir la superficie de ataque.
+- Hardening del sistema con Fail2ban, UFW, auditd y AIDE.
+- Dominio propio con DNS, certificados TLS automáticos y autenticación centralizada.
 
 ## Contacto
 
